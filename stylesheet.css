@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+.logo{
+  width:70%;
+  height:auto;
+  margin-top: none;
+  margin-bottom: none;
+}
+.main-nav{
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.page-header{
+  display:flex;
+  justify-content: space-between;
+}
+.wrapper{
+  max-width:1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.main-nav li{
+  margin-left: 36px;
+}
+.main-nav a{
+  color: #ffffff;
+}
+
+.main-nav a:hover{
+  color:#0bd;
+}
+
+body{
+  background-image: url(matt-howard-A4iL43vunlY-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300vh;
+  background-color: #00005d;
+}
+.home-content{
+  text-align: center;
+  margin-top: 10%;
+}
+.home-content p{
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+.quote{
+   color: #193278;
+   font-size: 70px;
+   font-family:"Arial Black";
+   text-align: center;
+}
+
+.contents{
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-family:"Bahnschrift SemiBold";
+  margin-top: 34px;
+  list-style: none;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-right: 50px;
+}
+.contents li{
+  margin-left: 36px;
+}
+.contents a{
+  color: #ffffff;
+}
+
+.contents a:hover{
+  color:#0bd;
+}
+
+h2 {
+   color: #ffffff;
+   font-size: 35px;
+   font-family:"Bahnschrift SemiBold";
+   font-weight: bold;
+   text-align: center;
+}
+.center image{
+  box-shadow: 2px 2px 4px -2px
+}
+
+.introduction {
+   font-size: 20px;
+   color: #ffffff;
+   line-height: 1.7;
+   text-align: justify;
+   width:700px;
+   height:auto;
+}
+
+ul{
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.7;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Articles{
+ background-color: #193278;
+ color:#fff;
+ margin:10px;
+ padding:10px;
+}
+.Pictures{
+ background-color: #193278;
+ color:#fff;
+ margin:10px;
+ padding:10px;
+}
+.Music{
+  background-color: #193278;
+  color:#fff;
+  margin:10px;
+  padding:10px;
+}
+.Organizations{
+ background-color: #193278;
+ color:#fff;
+ margin:10px;
+ padding:10px;
+}
+
+form{
+  background-color: #ffffff;
+  text-align: center;
+  margin-left: 270px;
+  height:670px;
+  width:800px;
+  justify-content: center;
+  display: column;
+}
+form li{
+  list-style-type: none;
+  margin-top: 30px;
+}
+form textarea{
+  width:350px;
+  height:100px;
+}
+
+.submit-button{
+  text-align:center;
+  justify-content: center;
+}
+
+
+footer{
+  height:80px;
+  background-color: #ffffff;
+}
+
+.container{
+  display: flex;
+  background-color: #ffffff;
+  height:150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Facebook img{
+  width: 8vh;
+  height:8vh;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+.instagram img{
+  width: 8vh;
+  height:8vh;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+.Twitter img{
+  width: 8vh;
+  height:8vh;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+.gmail img{
+  width: 8vh;
+  height:8vh;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+.copyright{
+  color:#ffffff
+}
+
+/*mobile版
+--------------------------*/
+@media (max-width: 600px){
+  .page-title{
+    font-size: 2.5rem;
+    /*header*/
+  }
+  .page-header{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-nav li{
+    margin: 0 20px;
+  }
+  /*home*/
+  .home-content{
+    margin-top:20%;
+  }
+}
